@@ -1,0 +1,33 @@
+byte b;               //It's a 8 bits basically 8 bits=1 byte
+output= b ==>0
+
+short s;              //short is 16 bits
+output= s ==>0
+
+int i;                 //int is 32 bits
+output= i ==>0
+
+long l;                //long is 64 bits
+output= l ==>0
+
+float f = 4.0f;
+output= f==> 4.0
+
+float f2 = 4.5f;
+output= f2==> 4.5
+
+double db1 = 4.5
+output= db1 ==> 4.5
+
+if value is big and variable is small then java would through a compilation error.
+
+char ch = 'A'
+output= ch ==> 'A'
+
+boolean isPrime = true
+output= isPrime= true
+
+boolean isPrime = false
+output= isPrime= false
+
+
