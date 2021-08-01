@@ -1,0 +1,67 @@
+short numberOfGoals
+output= numberOfGoals ==> 0
+
+numberOfGoals
+output= numberOfGoals
+
+numberOfGoals++
+output= ==>0
+
+numberOfGoals
+output= numberOfGoals ==> 1
+
+numberOfGoals++
+output= ==>1
+
+numberOfGoals
+output= numberOfGoals ==> 2
+
+long populationOfTheWorld
+output= populationOfTheWorld ==> 0
+
+double average;
+output= average ==> 0.0
+
+char ch = 'A'
+output= ch = 'A'
+
+ch = 'B'
+output= ch = 'B'
+
+char grade = 'c'
+output= grade = 'c'
+
+grade = 'A'
+output= grade = 'A'
+
+boolean isEven
+output= isEven  ==> false
+
+isEven = true
+output= isEven ==> true
+
+boolean isPrime
+output= isPrime ==> false
+
+boolean isItRainingToday
+output= isItRainingToday ==> false
+
+boolean areYouEnjoyingTheCourse
+output= areYouEnjoyingTheCourse ==> false
+
+areYouEnjoyingTheCourse = true
+areYouEnjoyingTheCourse ==> true
+
+
+"1" + 2 + 3        Output= "123"
+"ABC" + "DEF" + "GHI"    Output= "ABCDEFGHI"
+
+System.out.println("ABC" + "DEF" + "GHI")
+output= ABCDEFGHI
+
+int i=6
+System.out.println("value of " +i)
+output= value of 6 
+
+System.out.println("value of i is " +i)
+output= value of i is 6 
