@@ -1,0 +1,20 @@
+int newVariable
+output= newVariable ==> 0
+
+newVariable
+output= newVariable ==> 0
+
+int undeclaredVariable
+output= undeclaredVariable ==> 0
+
+undeclaredVariable
+output= undeclaredVariable ==> 0
+
+5 * undeclaredVariable
+output= ==>0
+
+int number =5
+output= number ==> 5
+
+int number2 =number
+output= number2 ==> 5
