@@ -1,0 +1,48 @@
+System.out.printf("%d * %d = %d", 5, 1, 5*1).println()
+Output= 5 * 1 = 5
+
+System.out.printf("%d * %d = %d", 5, 2, 5*2).println()
+Output= 5 * 2 = 10
+
+System.out.printf("%d * %d = %d", 5, 3, 5*3).println()
+Output= 5 * 3 = 15
+
+int number = 10
+Output= number==>10
+
+number = 12
+Output= number==>12
+
+int number
+Output= number==>12
+
+int number = 15
+Output= number==>15
+
+int number
+Output= number==>15
+
+int number2 = 100
+Output= number2==>100
+
+int i = 5;
+i ==> 5
+
+System.out.printf("%d * %d = %d", 5, i, 5 * i).println()
+Output= 5 * 5=25
+
+Exercise-
+int a=2; int b=3; int c=4
+system.out.printf("%d + %d + %d"=%d",a, b, c, a+b+c).println()
+output= 2+3+4=9
+ 
+modify the value of a
+int a=5;  then 
+system.out.printf("%d + %d + %d"=%d",a, b, c, a+b+c).println()
+output= 5 +3 +4=12
+
+modify the value of b
+int b=7;  then 
+system.out.printf("%d + %d + %d"=%d",a, b, c, a+b+c).println()
+output= 5 +7 +4=16
+
