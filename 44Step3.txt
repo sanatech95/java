@@ -1,0 +1,58 @@
+/methods
+/save backup.txt
+/edit sayHelloWorldTwice
+sayHelloWorldTwice()
+/list sayHelloWorldTwice
+
+
+
+46. Step-4
+void sayHelloWorld(int noOfTimes) {
+//Body of the method
+}
+
+created method
+sayHelloWorld(1)
+/edit sayHelloWorld
+void sayHelloWorld(int noOfTimes) {
+      for(int i=1; i<=noOfTimes; i++){
+          System.out.println(noOfTimes);
+      }
+}
+sayHelloWorld(1)
+sayHelloWorld(2)
+/list sayHelloWorld
+/edit sayHelloWorld
+void sayHelloWorld(int noOfTimes) {
+      for(int i=1; i<=noOfTimes; i++){
+          System.out.println("Hello World");
+      }
+}
+
+
+
+
+47) Exercise-
+1)void printNumber(int n){
+   ...>     for (i=1; i<=n; i++){
+   ...>         System.out.println(i);
+   ...>     }
+created method
+printNumber(12)    output=1,2,3,4,...........12\
+
+
+
+2)void printSquareOfNumbers(int n){
+    for (i=1; i<=n; i++){
+        System.out.println(i*i);
+   }
+}
+
+
+49)
+void printMultiplicationTable(){
+    for (i=1; i<=10; i++){
+        System.out.printf("%d * %d = %d",5, i, 5*i).println();
+   }
+}
+
