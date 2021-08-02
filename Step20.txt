@@ -1,0 +1,40 @@
+System.out.println("Output");
+Output= Output
+
+System.out.printf("%d",i).println();
+Output=3
+
+if wanna search any comment which was executed also then press ctrl+r and type system if wanna other comment press Ctrl+r 
+
+System.out.println("No 1");
+Output= No 1
+
+/exit 
+
+again enter in jshell type jshell
+
+Step-23
+when i=10
+i<5 then output giving false
+if i>5 then output giving true
+ 
+i<=5 then false
+i<=10 then true
+i>=10 then true
+
+if (condition)  statement;
+if (i<5)
+   System.out.println("i is less than 5")
+
+i=4
+if (i<5)
+   System.out.println("i is less than 5")
+output= i is less than 5
+
+int number1=5;
+int number2=7;
+if (number2>number1)
+system.out.println("number2 is greater than number1")
+output= number2 is greater than number1
+if condition is wrong so nothing is printed
+
