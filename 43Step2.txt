@@ -1,0 +1,42 @@
+System.out.println("Hello World");       output=Hello World
+
+System.out.println("Hello World"); System.out.println("Hello World");       
+output=Hello World 
+       Hello World
+
+void sayHelloWorldTwice(){
+ System.out.println("Hello World");
+ System.out.println("Hello World"); 
+}
+
+sayHelloWorldTwice()
+output=Hello World 
+       Hello World
+
+
+
+Exercise-
+1)void sayHelloWorldThrice(){
+ System.out.println("Hello World");
+ System.out.println("Hello World"); 
+ System.out.println("Hello World"); 
+}
+
+sayHelloWorldThrice()
+output=Hello World 
+       Hello World
+       Hello World
+
+
+2)void printLearningExperience(){
+ System.out.println("I've created my first variable");
+ System.out.println("I've created my first method"); 
+ System.out.println("I've created my first loop"); 
+ System.out.println("I'm excited to learn java"); 
+}
+
+printLearningExperience()
+output=I've created my first variable
+       I've created my first method
+       I've created my first loop
+       I'm excited to learn java
