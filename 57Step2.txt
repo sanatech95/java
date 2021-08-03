@@ -1,0 +1,35 @@
+class Country {
+}
+
+Country india= new Country()
+Country USA= new Country()
+
+
+
+58.
+ class Planet {
+void revolve() {
+System.out.println("Revolve");
+}
+}
+
+Planet mars= new Planet()
+Planet venus= new Planet()
+mars.revolve()
+
+
+class Country {
+void comingSoon() {
+System.out.println("comingSoon");
+}
+}
+
+Country india= new Country()
+Country USA= new Country()
+india.comingSoon()
+
+
+
+60.
+/list Planet
+/list Country
