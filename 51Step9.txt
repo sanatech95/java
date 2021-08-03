@@ -1,0 +1,56 @@
+Math.max(1,2)
+sum(1,2)
+
+void sum(int firstnumber, int secondnumber){
+    int sum= firstnumber+ secondnumber;
+    System.out.println(sum);
+}
+
+sum(7,9)          output=16
+
+void sum(int firstnumber, int secondnumber, int thirdnumber){
+    int sum= firstnumber+ secondnumber +thirdnumber;
+    System.out.println(sum);
+}
+
+sum(5,10,15)          output=30
+
+
+
+
+
+
+52. 
+int max = math.max(21,32)
+
+int sumOfTwoNumbers(int firstnumber, int secondnumber){
+int sum= firstnumber+ secondnumber;
+return sum;
+}
+
+sumOfTwoNumbers(2,4)
+int sum=sumOfTwoNumbers(6,2)
+
+
+53.
+Exercise-
+1)int sumOfThreeNumbers(int firstnumber, int secondnumber, int thirdnumber){
+int sum= firstnumber+ secondnumber + thirdnumber;
+return sum;
+}
+sumOfThreeNumbers(2,4,8)
+int sum=sumOfThreeNumbers(6,2,9)
+
+
+
+2)input- angle1, angle2
+output- int
+name- calculateThirdAngle
+
+int calculateThirdAngle(int angle1, int angle2){
+int angle3= 180- (angle1 + angle2);
+return angle3;
+}
+
+
+
