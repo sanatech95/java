@@ -16,6 +16,7 @@ public class myNumberRunner {
 		int sumOfDivisiors = number.sumOfDivisiors();
 		System.out.println("sumOfDivisiors  " + sumOfDivisiors);
 		
+		number.printNumberTraingle();
 		
 	}
 
