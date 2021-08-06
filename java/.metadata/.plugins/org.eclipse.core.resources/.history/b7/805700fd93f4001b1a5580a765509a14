@@ -1,0 +1,21 @@
+package com.oops;
+
+public class MotorBikeRunner {
+
+	public static void main(String[] args) {
+
+		MotorBike honda = new MotorBike();
+		MotorBike yamaha = new MotorBike();
+
+		honda.start();
+		yamaha.start();
+
+		honda.setSpeed(100);
+		yamaha.setSpeed(70);
+
+		honda.setSpeed(20);
+		yamaha.setSpeed(0);
+
+	}
+
+}

@@ -1,0 +1,50 @@
+jshell> boolean isEven;
+isEven ==> false
+
+jshell> int i =5
+i ==> 5
+
+jshell> if(i%2==0) {
+   ...>     isEven = true;
+   ...> } else {
+   ...>     isEven = false;
+   ...> }
+
+jshell> isEven
+isEven ==> false
+
+jshell> i=6;
+i ==> 6
+
+jshell> if(i%2==0) {
+   ...>     isEven = true;
+   ...> } else {
+   ...>     isEven = false;
+   ...> }
+
+jshell> isEven
+isEven ==> true
+
+jshell> isEven = ( i%2==0 ? true : false)
+isEven ==> true
+
+jshell> i=6;
+i ==> 6
+
+jshell> isEven = ( i%2==0 ? true : false)
+isEven ==> true
+
+jshell> i=7;
+i ==> 7
+
+jshell> isEven = ( i%2==0 ? true : false)
+isEven ==> false
+
+jshell> String even=(i%2==0 ? "Yes" : "No")
+even ==> "No"
+
+jshell> i=6;
+i ==> 6
+
+jshell> String even=(i%2==0 ? "Yes" : "No")
+even ==> "Yes"

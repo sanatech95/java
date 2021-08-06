@@ -1,0 +1,14 @@
+package com.oops;
+
+public class MotorBike {
+
+	// State
+	private int speed; // member variable
+
+
+
+	void start() {
+		System.out.println("Bike Started");
+	}
+
+}

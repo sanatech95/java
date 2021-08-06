@@ -1,0 +1,60 @@
+jshell> char ch = 'a'
+ch ==> 'a'
+
+Unicode value----
+jshell> char ch2 = '\u0022'
+ch2 ==> '"'
+
+jshell> char ch3 = '\u00A2'
+ch3 ==> '¢'
+
+jshell> char ch = 65
+ch ==> 'A'
+
+jshell> ch++
+$119 ==> 'A'
+
+jshell> ch
+ch ==> 'B'
+
+jshell> ++ch
+$121 ==> 'C'
+
+jshell> ++ch
+$122 ==> 'D'
+
+jshell> ch +5
+$123 ==> 73
+
+jshell> ch
+ch ==> 'D'
+
+jshell> (int)ch
+$125 ==> 68
+
+jshell> char ch = '\n'
+ch ==> '\n'
+
+jshell> ch
+ch ==> '\n'
+
+jshell> System.out.println(ch);
+
+
+
+jshell> char ch='\t'
+ch ==> '\t'
+
+jshell> System.out.println(ch);
+
+
+
+Exercise-
+MyChar myChar = new MyChar('c');
+System.out.println(myChar.isVowel());
+          //'a', 'e', 'i', 'o', 'u' and Capitals
+System.out.println(myChar.isNumber());
+System.out.println(myChar.isAlphabe());
+MyChar.printLowerCaseAlphabets();
+MyChar.printUpperCaseAlphabets();
+

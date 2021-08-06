@@ -1,0 +1,52 @@
+Byte.SIZE=8
+Byte.BYTES=1
+Byte.MAX_VALUE=127
+Byte.MIN_VALUE=-128
+
+Short.SIZE=16
+Short.BYTES=2
+Short.MAX_VALUE=32767
+Short.MIN_VALUE=-32768
+
+Integer.SIZE=32
+Integer.BYTES=4
+Integer.MAX_VALUE=2147483647
+Integer.MIN_VALUE=-2147483648
+
+Long.SIZE=64
+Long.BYTES=8
+Long.MAX_VALUE=9223372036854775807
+Long.MIN_VALUE=-9223372036854775808
+
+int i= 100000; i=100000
+long l= 50000000l;  l=50000000l
+
+int i=3456;     i=3456
+short s= (short) i               s=3456
+
+
+
+99.
+int i= 11;
+jshell> i
+i ==> 11
+
+jshell> number.add(new BigDecimal(i))
+$111 ==> 22.5
+
+jshell> number.multiply(new BigDecimal(i))
+$112 ==> 126.5
+
+jshell> number.divide(new BigDecimal(100))
+$113 ==> 0.115
+
+
+100.
+Simple Interest Formula
+Total Amount = principle + principle*interest*noOfYears;
+
+SimpleInterestCalculator calculator = new SimpleInterestCalculator("4500.00", "7.5");
+
+BigDecimal totalValue = calculateTotalValue(5);//5 years
+System.out.println(totalSum);
+

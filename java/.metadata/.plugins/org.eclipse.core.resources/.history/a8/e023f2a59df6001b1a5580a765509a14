@@ -1,0 +1,29 @@
+package com.ifStatement.example;
+
+import java.util.Scanner;
+
+public class MenuRunner {
+	public static void main(String[] args) {
+		// Type obj = new Type(argument);
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter Number1: ");
+		int Number1 = scanner.nextInt();
+		// System.out.println("You are the Entered number is : " + Number1);
+
+		System.out.print("Enter Number2: ");
+		int Number2 = scanner.nextInt();
+
+		System.out.print("choice is available: ");
+		System.out.print("1 - Add");
+		System.out.print("2 - Subtract");
+		System.out.print("3 - Divide");
+		System.out.print("4 - Multiply");
+
+		System.out.print("Enter choice: ");
+		int choice = scanner.nextInt();
+
+		System.out.print("Number1 " + Number1);
+		System.out.print("Number2 " + Number2);
+		System.out.print("choice" + choice);
+	}
+}

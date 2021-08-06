@@ -1,0 +1,10 @@
+package com.ifStatement.example;
+
+public class SwitchExerciseRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

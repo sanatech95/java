@@ -1,0 +1,20 @@
+package com.primitive.datatypes;
+
+public class MyChar {
+
+	private char ch;
+
+	public MyChar(char ch) {
+		this.ch = ch;
+
+	}
+
+	public Boolean isVowel() {
+		if (ch == 'a') 
+			return true;
+		
+
+		return false;
+	}
+
+}
